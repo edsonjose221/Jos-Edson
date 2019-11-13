@@ -63,11 +63,59 @@ int ganhou() {
 
 
 void abertura() {
-	printf(" +---------------+\n");
-	printf("/|               |\n");
-	printf("/| Jogo de Forca |\n");
-	printf("/|               |\n");
-	printf(" +---------------+\n");
+
+
+{
+
+int opcao;
+    printf("____________________________________________________________\n");
+	printf("/|                                                         |  \n");
+	printf("/|                                                         |  \n");
+	printf("/|                                                         |  \n");
+	printf("/|                                                         |  \n");
+	printf("/|                                                         |  \n");
+	printf("/|                                                         |  \n");
+	printf("/|                                                         |  \n");
+	printf("/|     ________                                            |  \n");
+	printf("/|    |________|                                           |  \n");
+	printf("/|    | |____     ____  _ ___ ___ ___ _                    |  \n");
+	printf("/|    | |____|   /  _ \\| '__// __/  _' |                   |  \n");
+	printf("/|    | |       |  (_) | |  | (_|  (_| |                   |  \n");
+	printf("/|    |_|        \\____/|_|   \\___\\___,_|                   |  \n");
+	printf("/|                                                         |  \n");
+	printf("/|                                                         |  \n");
+	printf("/|                                                         |  \n");
+	printf("/|    JOGAR (1)                                            |  \n");
+	printf("/|                                                         |  \n");
+	printf("/|                                                         |  \n");
+	printf("/|_________________________________________________________|  \n");
+	scanf("%d",&opcao );
+	switch(opcao)
+	{
+		case 1:
+			system("cls");
+			
+			break;
+			
+		case 2:	
+			system("cls");
+			puts("Instrucoes:");
+			break;
+		
+		case 3:
+			exit(0);
+			break;
+				
+		default:
+			printf("Opcao invalida");
+			break;
+	}
+	
+	
+	
+
+	
+}
 }
 
 void chuta() {
@@ -100,24 +148,24 @@ int jachutou(char letra) {
 void desenhaforca() {
 
 	int erros = chuteserrados();
-
-                            printf("   #########      \n");
-                            printf("  #       ||  \n" );
-                            printf("##        %c      \n", (erros>=1?'*':' '));
-	                        printf("##       %c%c%c  \n", (erros>=1?'*':' '), (erros>=1?'*':' '), (erros>=1?'*':' '));
-	                        printf("##      %c%c %c%c  \n", (erros>=1?'*':' '), (erros>=1?'O':' '), (erros>=1?'O': ' '),(erros>=1?'*':' '));
-	                        printf("##      %c %c %c    \n", (erros>=1?'*':' '),(erros>=1?'^':' '),(erros>=1?'*':' '));
-	                        printf("##        %c   \n", (erros>=1?'*':' '));
-	                        printf("##        %c    \n",(erros>=2?'|':' '));
-	                        printf("##       %c%c      \n",(erros>=2?'/':' '),(erros>=3?'|':' '));
-	                        printf("##      %c %c    \n",(erros>=2?'/':' '),(erros>=3?'|':' '))	;                        
-							printf("##     %c  %c      \n",(erros>=2?'/':' '),(erros>=3?'|':' '));
-							printf("##        %c   \n",(erros>=3?'|':' '));
-							printf("##       %c %c    \n",(erros>=4?'/':' '),(erros>=5?'\\':' '));
-							printf("##      %c   %c   \n",(erros>=4?'/':' '),(erros>=5?'\\':' '));
-							printf("##     %c     %c  \n",(erros>=4?'/':' '),(erros>=5?'\\':' '));
-							printf("##             \n");
-	                       printf(" ######           \n");
+                            printf("   _____________       \n");
+                            printf(" / ____________|      \n");
+                            printf("/ /       ||  \n" );
+                            printf("| |       %c      \n", (erros>=1?'*':' '));
+	                        printf("| |      %c%c%c  \n", (erros>=1?'*':' '), (erros>=1?'*':' '), (erros>=1?'*':' '));
+	                        printf("| |     %c%c %c%c  \n", (erros>=1?'*':' '), (erros>=1?'O':' '), (erros>=1?'O': ' '),(erros>=1?'*':' '));
+	                        printf("| |     %c %c %c    \n", (erros>=1?'*':' '),(erros>=1?'^':' '),(erros>=1?'*':' '));
+	                        printf("| |       %c   \n", (erros>=1?'*':' '));
+	                        printf("| |       %c    \n",(erros>=2?'|':' '));
+	                        printf("| |      %c%c      \n",(erros>=2?'/':' '),(erros>=3?'|':' '));
+	                        printf("| |     %c %c    \n",(erros>=2?'/':' '),(erros>=3?'|':' '))	;                        
+							printf("| |    %c  %c      \n",(erros>=2?'/':' '),(erros>=3?'|':' '));
+							printf("| |       %c   \n",(erros>=3?'|':' '));
+							printf("| |      %c %c    \n",(erros>=4?'/':' '),(erros>=5?'\\':' '));
+							printf("| |     %c   %c   \n",(erros>=4?'/':' '),(erros>=5?'\\':' '));
+							printf("| |    %c     %c  \n",(erros>=4?'/':' '),(erros>=5?'\\':' '));
+							printf("| |             \n");
+	                       printf("|_|_______           \n");
 	                           printf("\n\n");
 
 	for(int i = 0; i < strlen(palavrasecreta); i++) {
@@ -223,22 +271,21 @@ int main() {
 		printf("\nPuxa, você foi enforcado!\n");
 		printf("A palavra era **%s**\n\n", palavrasecreta);
 
-		printf("    _______________         \n");
-		printf("   /               \\       \n"); 
-		printf("  /                 \\      \n");
-		printf("//                   \\/\\  \n");
-		printf("\\|   XXXX     XXXX   | /   \n");
-		printf(" |   XXXX     XXXX   |/     \n");
-		printf(" |   XXX       XXX   |      \n");
-		printf(" |                   |      \n");
-		printf(" \\__      XXX      __/     \n");
-		printf("   |\\     XXX     /|       \n");
-		printf("   | |           | |        \n");
-		printf("   | I I I I I I I |        \n");
-		printf("   |  I I I I I I  |        \n");
-		printf("   \\_             _/       \n");
-		printf("     \\_         _/         \n");
-		printf("       \\_______/           \n");
+		
+		
+		
+	printf( "  _____       ___       ___  ___   _____       \n");
+    printf ( " / ____|     /   |     /   |/   | |  ___|      \n");
+    printf (  " | |        / /| |    / /|   /| | | |__        \n");
+    printf ( " | |  _    / ___ |   / / |__/ | | |  __|       \n");
+    printf ( " | |_| |  / /  | |  / /       | | | |___       \n");
+    printf ( " \\_____/ /_/   |_| /_/        |_| |_____|      \n");
+    printf ( "  _____   _     _   _____   _____              \n");
+    printf (" /  _  \\ | |   / / |  ___| |  _  \\             \n");
+    printf ( " | | | | | |  / /  | |__   | |_| |             \n");
+    printf ( " | | | | | | / /   |  __|  |  _  /             \n");
+    printf ( " | |_| | | |/ /    | |___  | | \\ \\             \n");
+    printf ( " \\_____/ |___/     |_____| |_|  \\_\\            \n");
 	}
 
 	adicionapalavra();
