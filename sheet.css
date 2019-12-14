@@ -1,0 +1,9 @@
+body{
+	background-image: url("https://i.ytimg.com/vi/rRrt5aoGFCI/maxresdefault.jpg");
+}
+h1{
+	color: #fff000; font-family: helvetica; font-size: 80px; text-align: center;
+}
+p{
+	font-size: inherit; font-family: sans-serif; font-size: 30px; color: #bc90ff;
+}
