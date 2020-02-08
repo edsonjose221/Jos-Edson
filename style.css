@@ -1,12 +1,100 @@
-body {
-	background-image: url("https://populous.com/wp-content/uploads/2018/01/POP_0W_WDB1_72_5321_Emirates_InteriorVacant_Day3_Hufton_Crow.jpg");
+body{
+	background-color: #060606;
+	background-image: url(../img/pizzas.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 0;
 }
-h1 {
-	text-align: center; color: orange; 
-	font-family: georgia, palatino;
-	font-style: italic;
-	text-shadow: 1px 1px 1px rgba(0, 8, 0);
-	 
+#banner{
+	background-color: rgba(0, 0, 0, .5);
+	height: 80px;
+	padding: 20px 20px 30px 50px; 
 }
-
-
+#banner img{
+	height: 42px;
+	margin: 1px;
+	width: 90px;
+	float: left;
+	padding-bottom: 0em;
+}
+#banner nav {
+	float: right;
+	top: 30px;
+	position: relative;
+}
+#banner h1{
+	float: left;
+	margin: 0;
+}
+#banner ul{
+	margin: 0;
+}
+#banner nav ul li{
+	display: inline-block;
+	width: 100px;
+}
+#banner nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight:bold;
+	font-family: "helvetica Neue", sans-serif;
+}
+#sabores-pizzas h2{
+	text-align: center;
+	text-transform: uppercase;
+	color: #000;
+	font-family: "helvetica Neue", sans-serif;
+	margin: 0px;
+	line-height: 6;
+	text-shadow: 4px -2px 8px #060606;
+}
+#sabores-pizzas table{
+	width: 80%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	background-color: #2a2a2a;
+}
+#sabores-pizzas table td, #sabores-pizzas table th{
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "helvetica Neue", sans-serif;
+	border:1px #000 solid;
+	padding: 25px;
+}
+#sabores-pizzas .texto-positivo{
+	color: green;
+}
+#sabores-pizzas .texto-negativo{
+	color:red;
+}
+#corpyrigth a{
+	text-align: center;
+	display: block;
+}
+#corpyrigth p{
+	color:#fff;
+	text-align: center;
+	font-size: 12px;
+	font-family: "helvetica Neue", sans-serif;
+}
+#sabores-pizzas{
+	padding-bottom: 60px;
+	margin-top: 400px;
+}
+#corpyrigth{
+	padding: 30px 0 10px 0;
+	background-color: #060606;
+}
+#corpyrigth img{
+	height: 50px;
+}
+.texto1{
+	font-size: 20px;
+	color: slateblue;
+}
+#sobre body{
+	background-image: url("https://static1.casapraticaqualita.com.br/articles/2/77/2/@/809-a-pizza-de-calabresa-e-uma-das-mais-sabo-article_content_img-2.jpg");
+}
