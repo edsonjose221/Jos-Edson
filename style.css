@@ -1,100 +1,114 @@
 body{
-	background-color: #060606;
-	background-image: url(../img/pizzas.jpg);
-	background-repeat: no-repeat;
-	background-size: contain;
-	margin: 0;
+    background-image: url("img/moto_honda.jpg");
 }
-#banner{
-	background-color: rgba(0, 0, 0, .5);
-	height: 80px;
-	padding: 20px 20px 30px 50px; 
+.logo{
+    background-color:rgba(0, 0, 0, .5);
+    height: 80px;
+    padding: 20px 20px 30px 50px;
 }
-#banner img{
-	height: 42px;
-	margin: 1px;
-	width: 90px;
-	float: left;
-	padding-bottom: 0em;
+.logo img{
+    height: 45px;
+    width: 80px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    padding-bottom: 0px;
+    padding-top: 1px;
+    padding-left: 2px;
+    float: left;
 }
-#banner nav {
-	float: right;
-	top: 30px;
-	position: relative;
+.logo h1{
+    float: left;
+    margin: 0;
 }
-#banner h1{
-	float: left;
-	margin: 0;
+.logo a{
+    float:right;
 }
-#banner ul{
-	margin: 0;
+.logo nav{
+    top: 30px;
+    position: relative;
+    float: right;
 }
-#banner nav ul li{
-	display: inline-block;
-	width: 100px;
+.logo ul{
+    margin: 0;
 }
-#banner nav ul li a{
-	color: #fff;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 12px;
-	font-weight:bold;
-	font-family: "helvetica Neue", sans-serif;
+.logo nav ul li{
+    display: inline-block;
+    width: 100px;
 }
-#sabores-pizzas h2{
-	text-align: center;
-	text-transform: uppercase;
-	color: #000;
-	font-family: "helvetica Neue", sans-serif;
-	margin: 0px;
-	line-height: 6;
-	text-shadow: 4px -2px 8px #060606;
+.logo nav ul li a{
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:"Helvetica neue", sans-serif;
 }
-#sabores-pizzas table{
-	width: 80%;
-	margin: 0 auto;
-	border-collapse: collapse;
-	background-color: #2a2a2a;
+.logo2{
+     background-color:rgba(0, 0, 0, .5);
+     height: 80px;
+     padding: 20px 20px 30px 50px;
 }
-#sabores-pizzas table td, #sabores-pizzas table th{
-	color: #fff;
-	text-align: center;
-	text-transform: uppercase;
-	font-family: "helvetica Neue", sans-serif;
-	border:1px #000 solid;
-	padding: 25px;
+.logo2 img{
+    height: 45px;
+    width: 85px;
+    margin-top: 15px;
+    margin-bottom: 24px;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    padding-left: 2px;
+    margin-left: 650%;
 }
-#sabores-pizzas .texto-positivo{
-	color: green;
+.logo2 h1{
+    float: left;
+    margin: 0%;
 }
-#sabores-pizzas .texto-negativo{
-	color:red;
+.logo2 nav{
+    top: 30px;
+    position: relative;
+    float: right;
 }
-#corpyrigth a{
-	text-align: center;
-	display: block;
+#ofertas h1{
+    text-align: center;
+    text-transform: none;
+    color: rgb(90, 25, 90);
+    font-family: "helvetica neue", sans-serif;
+    margin: 0;
+    line-height: 6;
+    text-shadow: 2px -1px red;
 }
-#corpyrigth p{
-	color:#fff;
-	text-align: center;
-	font-size: 12px;
-	font-family: "helvetica Neue", sans-serif;
+#ofertas table{
+    width: 80px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #2a2a2a;
 }
-#sabores-pizzas{
-	padding-bottom: 60px;
-	margin-top: 400px;
+#ofertas table td, #ofertas table th{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "helvetica neue", sans-serif;
+    border: 1px #000 solid;
+    padding: 25px;
 }
-#corpyrigth{
-	padding: 30px 0 10px 0;
-	background-color: #060606;
+#corpy{
+    padding: 30px 0 10px 0;
+    text-align: center;
 }
-#corpyrigth img{
-	height: 50px;
+#corpy img{
+    height: 50px;
 }
-.texto1{
-	font-size: 20px;
-	color: slateblue;
+.img1 img{
+    margin-left: 10%;
+    width: 200px;
+    height: 95px;
 }
-#sobre body{
-	background-image: url("https://static1.casapraticaqualita.com.br/articles/2/77/2/@/809-a-pizza-de-calabresa-e-uma-das-mais-sabo-article_content_img-2.jpg");
+.p1{
+    margin-left: 10%;
+    margin-top: 1%;
+    color: green;
+}
+.p2{
+    margin-left: 35%;
+    color: green;
+    margin-top: 0%;
 }

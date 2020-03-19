@@ -1,0 +1,29 @@
+h1{
+  color: blue;  
+  text-align: center;
+  padding-top: 25px;
+  font-size: 43px;
+}
+.paragrafo1 {
+    color: seagreen;
+    font-size: 20px;
+    margin-left: 22px;
+    padding-top: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+.paragrafo2 {
+    color: seagreen;
+    font-size: 20px;
+    margin-left: 22px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+a{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
