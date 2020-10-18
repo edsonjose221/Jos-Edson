@@ -1,0 +1,141 @@
+body{
+    background-image: url(./img/pizzas-sabores.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.banner nav{
+    background-color: rgba(0, 0, 0, .5);
+    height: 70px;
+    padding: 10px 70px 30px 50px;
+}
+.banner h1 img{
+    float: left;
+    width: 80px;
+    margin: 0;
+}
+.banner h2{
+    float: right;
+    text-shadow: -3px -1px 2px #06522c;
+}
+
+#Login form{
+    background-color: rgba(0, 0, 0, .9);
+    max-width: 500px;
+    width: 50%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-58%, -58%);
+    
+}
+#Login form input[type = text], 
+input[type = password]{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+#Login form input[type = submit]{
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    background-color: #5F7C8A;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+}
+#Login form input[type = submit]:hover{
+    background-color: #4A5F5A;
+}
+
+#Login h2{
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: -2px -1px 1px #10ad3f;
+    line-height: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Login a{
+     color: #10ad3f;
+     text-decoration: none;
+}
+#tabela h2{
+    line-height: 4;
+    text-align: center;
+    text-shadow: -3px -2px 5px #10ad3f;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+#tabela table {
+    background-color: #2a2a2a;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 80%;
+}
+#tabela table td,
+#tabela table th{
+    border: 1px solid #000;
+    font-size: 16px;
+    padding: 25px;
+    text-transform: uppercase;
+    width: 20%;
+}
+#tabela .texto-vermelho{
+    color: rgb(216, 29, 29);
+}
+#tabela .texto-verde{
+    color: #10ad3f;
+}
+
+#perfil form{
+    background-color: rgba(0, 0, 0, .7);
+    max-width: 500px;
+    width: 50%;
+    padding: 70px 30px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-58%, -58%);
+}
+
+#perfil form input[type = text],
+input [type = password]{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 13px 0;   
+}
+
+#perfil form input[type = button]{
+    width: 100%;
+    height: 40px;
+    margin-top: 14px;
+    cursor: pointer;
+    background-color: #5F7C8A;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+}
+
+#perfil form input[type = buttom]:hover{
+    background-color: #4A5F5A;
+}
+
+#perfil h2{
+    line-height: 5;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: -2px -4px 2px #02ff4e;
+    padding-right: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#perfil a {
+    color: #10ad3f;
+    text-decoration: #2a2a2a;
+    font-size: 17px;
+}
